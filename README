@@ -1,0 +1,19 @@
+Simple Scala OSGi Declarative Services Demo
+
+The demo shows how the BND Tools (http://njbartlett.name/bndtools.html) and 
+the Scala IDE (http://www.scala-ide.org/) can be used, to build a OSGi based Declarative Services (DS) 
+application in the eclipse IDE.
+
+Overview:
+- com.github.tux2323.demo.osgiscala.echo.api contains interface for a echo services as Scala trait.
+- com.github.tux2323.demo.osgiscala.echo.client contains a DS component which refers the echo service.
+- com.github.tux2323.demo.osgiscala.echo.impl a DS component which provides a echo service.
+
+Open Issues:
+- Integrated the Scala Compiler in the ANT Build
+- Add to SCM a repository with the Scala Bundles
+
+Links:
+- BND Tools http://njbartlett.name/bndtools.html
+- Scala IDE http://www.scala-ide.org/
+- Scala Lang offers OSGi bundles for Scala https://github.com/weiglewilczek/scala-lang-osgi
