@@ -10,6 +10,7 @@ Overview:
 - com.github.tux2323.demo.osgiscala.echo.impl a DS component which provides a echo service.
 
 Open Issues:
+- Need the OSGi bundle biz.aQute.bnd.annotation at runtime, because in scala supports no compile time annotations?
 - Integrated the Scala Compiler in the ANT Build
 - Add to SCM a repository with the Scala Bundles
 

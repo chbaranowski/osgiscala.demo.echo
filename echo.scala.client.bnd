@@ -1,3 +1,5 @@
 Private-Package: com.github.tux2323.demo.osgiscala.echo.client
 Service-Component: com.github.tux2323.demo.osgiscala.echo.*
 Bundle-Version: 1.0.0
+Import-Package: !aQute.bnd.annotation*,\
+	*
